@@ -1,25 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Getting Started
-1. Clone this repository and run npm install in the project root.
-2. Then npm run eject (make sure you commit all changes before do this)
-3. Then got webpack.config.js file (<projectroot>/config/webpack.config.js) do te following change
-    Scroll dow to module, where you can spot "test: cssRegex" where you test for css files. There for options add folowings.
-    module: true,
-    localIdentName: '[name]__[local]__[hash:base64:5]',
-
-    After Changes it will look like this,
-
-    test: cssRegex,
-        exclude: cssModuleRegex,
-        use: getStyleLoaders({
-        importLoaders: 1,
-        modules: true,
-        localIdentName: '[name]__[local]__[hash:base64:5]',
-        sourceMap: isEnvProduction && shouldUseSourceMap,
-        }),
-                
-
 ## Available Scripts
 
 In the project directory, you can run:
