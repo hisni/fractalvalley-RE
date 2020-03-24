@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg,rgb(45, 196, 123) 0%, rgb(3, 78, 41) 100%);
+    background: linear-gradient(90deg,rgb(173, 172, 172) 0%, rgb(66, 58, 58) 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,6 +23,7 @@
         display: none;
     }
     .Toolbar {
-        background: linear-gradient(90deg,rgb(7, 151, 79) 0%, rgb(3, 78, 41) 100%);
+        background: linear-gradient(90deg,rgb(173, 172, 172) 0%, rgb(66, 58, 58) 100%);
+
     }
 }

@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
-import './Home.css';
+import './Auth.css';
 
 class Main extends Component {
-
-    componentDidMount(){
-        // this.props.onTryAutoSignup();
-    }
 
     render() {
 
         return (
-            <div className="App">
-                <h1>Fractal</h1>
+            <div className="Logout">
+                <h1>Under Development</h1>
             </div>
         );
     }

@@ -1,0 +1,11 @@
+.About {
+    text-align: center;
+    line-height: 300px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.About h1{
+    color: rgb(139, 133, 133);
+}
+  

@@ -1,0 +1,25 @@
+.Login {
+    text-align: center;
+    line-height: 300px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Signup {
+    text-align: center;
+    line-height: 300px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Logout {
+    text-align: center;
+    line-height: 300px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+h1{
+    color: rgb(139, 133, 133);
+}
+  

@@ -13,7 +13,7 @@
 }
 
 .Left h4, .Right h4{
-    color: rgb(3, 78, 41);
+    color: rgb(191, 181, 216);
 }
 
 .footer{
@@ -21,6 +21,6 @@
     left: 0;
     /* bottom: 0; */
     width: 100%;
-    background-color: rgb(45, 196, 123);
+    background-color: rgb(66, 58, 58);
     text-align: center;
 }
