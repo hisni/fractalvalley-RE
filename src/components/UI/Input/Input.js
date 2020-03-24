@@ -56,12 +56,21 @@ const input = ( props ) => {
                 onChange={props.changed} />;
     }
 
-    return (
-        <div className={InputClass}>
-            <label className={labelClass}>{props.label}</label>
-            {inputElement}
-        </div>
-    );
+    let elementOutput = 
+            <div className={InputClass}>
+                {inputElement}
+                <label className={labelClass}>{props.label}</label>
+            </div>
+
+    if(props.elementConfig.type === 'range'){
+        elementOutput =
+            <div className={InputClass}>
+                <label className={labelClass}>{props.label}</label>
+                {inputElement}
+            </div>
+    }
+
+    return ( elementOutput );
 
 };
 

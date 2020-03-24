@@ -4,7 +4,6 @@ import Controls from './Controls/Controls';
 import './Home.css';
 
 class Main extends Component {
-
     state = {
         tiled: false,
         RendererSelectedOption: "cpp",
@@ -35,13 +34,8 @@ class Main extends Component {
     render() {
 
         return (
-            <div className="App">
-                <h1>Control + Fractal Image</h1>
-                <Controls
-                
-                
-                
-                />
+            <div className="Home">
+                <Controls/>
             </div>
         );
     }
